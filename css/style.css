@@ -2422,3 +2422,16 @@ body.black .contact-section h2 a {
     line-height: 26px;
     padding: 25px 110px 50px 110px;
 }
+/* Fix Resume section overlap */
+#Resume {
+    margin-top: 100px !important;
+    padding-top: 50px !important;
+    position: relative;
+    z-index: 5;
+    background: white; /* Or your background color */
+}
+
+.Resume-section {
+    clear: both;
+    overflow: hidden;
+}
